@@ -1,0 +1,64 @@
+nav {
+    position: top;
+    height: max-content;
+    width: 100vw;
+    display: flex;
+}
+
+ul {
+    background-color: gray;
+    list-style-type: none;
+    margin-right: 3px;
+    margin-left: 3px;
+    padding: 0%;
+    font-size: inherit;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+
+}
+
+li {
+    display: inline-block;
+    padding: 0px;
+    margin-right: 2px;
+    margin-left: 2px;
+}
+
+a {
+    display: block;
+    padding: 0px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-align: center;
+}
+
+a:hover {
+    background-color: rgb(13, 183, 13);
+}
+
+h1{
+    color: white;
+}
+
+.search:hover{
+    background-color: rgb(13, 183, 13);
+    color: white;
+}
+
+.search{
+    border: 2px solid rgb(13, 183, 13);
+    color: rgb(13, 183, 13);
+    background-color: grey;
+    height: 40px;
+}
+
+li > input {
+    margin-left: 50px;
+    height: 40px;
+}
+
+*option{
+    font-style: none;
+    height: 80px;
+    padding: 5px;
+}
