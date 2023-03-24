@@ -1,0 +1,17 @@
+body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#yellow {
+    order: -3;
+}
+#red {
+    order: -2;
+}
+
+#orange {
+    flex-grow: 2;
+}
+
