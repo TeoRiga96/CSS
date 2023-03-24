@@ -1,0 +1,33 @@
+#green {
+    grid-area: navbar;
+}
+
+#red {
+    grid-area: arg2;
+}
+
+#yellow{
+    grid-area: arg1; 
+}
+
+#blue {
+    grid-area: aside;
+}
+
+#orange {
+    grid-area: footer;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-areas: 
+    "navbar navbar navbar"
+    " arg1 arg2 aside"
+    " arg1 arg2 aside"
+    "footer footer aside";
+    gap: 0px;
+}
+
+
