@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+}
+
+
+@media (max-width: 375px) {
+    .card1, .card2, .card3 {
+        max-width: 375px;
+    }
+    .card {
+        flex-wrap: wrap;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .card1, .card2, .card3 {
+        max-width: calc(768px / 3)
+    }
+    .card {
+        flex-wrap: wrap;
+    }
+}
