@@ -1,1 +1,1 @@
-Css exercise 
+si, lo so le card andavano create, perdonami. intanto ho fatto così per capire un po' il funzionamento di Media Queries (e ci sto ancora lavorando). mi puoi controllare intanto se ho usato bene @media ? poi aggiorno l'esercizio con tutte le card.
