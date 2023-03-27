@@ -15,7 +15,8 @@ body{
     background-color: gray;
     display: grid;
     gap: 1px;
-    border-radius: 5%;
+    border-radius: 8px;
+    box-shadow: lightgray 3px 3px 5px;
 }
 
 /* ho usato flex nella prima riga e nel display per provare le differenze */
@@ -29,6 +30,7 @@ body{
     color: white;
     font-size: xx-large;
     padding-right: 5px;
+    border-radius: 8px 8px 0px 0px;
 }
 
 .sum, .minus, .x, .÷ {
@@ -48,6 +50,7 @@ body{
     font-size: x-large;
     font-weight: bold;
     background-color: lightcoral;
+    border-radius: 0px 0px 8px 0px;
 }
 
 .one, .two, .three, .four, .five, .six, .seven, .eight, .nine, .zero, .dot, .AC {
@@ -59,4 +62,9 @@ body{
     font-weight: bold;
     background-color: white;
 }
+
+.zero {
+    border-radius: 0px 0px 0px 8px;
+}
+
 
