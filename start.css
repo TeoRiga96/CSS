@@ -4,11 +4,14 @@
 
 #red {
     grid-area: arg2;
+    
 }
 
 #yellow{
     grid-area: arg1; 
+
 }
+
 
 #blue {
     grid-area: aside;
@@ -29,5 +32,12 @@ body {
     "footer footer aside";
     gap: 0px;
 }
+ ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+ }
+
+
 
 
