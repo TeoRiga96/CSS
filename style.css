@@ -7,22 +7,21 @@ body {
     display: flex;
 }
 
+@media (max-width: 768px) {
+    .card1, .card2, .card3 {
+        max-width: calc(100% / 2)
+    }
+    .card {
+        flex-wrap: wrap;
+    }
+}
 
 @media (max-width: 375px) {
     .card1, .card2, .card3 {
-        max-width: 375px;
-    }
-    .card {
-        flex-wrap: wrap;
-    }
-
-}
-
-@media (max-width: 768px) {
-    .card1, .card2, .card3 {
-        max-width: calc(768px / 3)
+        max-width: 100%;
     }
     .card {
         flex-wrap: wrap;
     }
 }
+
